@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato, Roboto, sans-serif;
+  outline: none;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #3366CC;
+}
+
+::selection {
+   background: transparent;
+}
+::-moz-selection {
+   background: transparent;
+}
+
+.new_game {
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.status_game {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.btn {
+  cursor: pointer;
+}
